@@ -1,0 +1,8 @@
+-- 총주문량이 3,000보다 높으면서 아이스크림의 주 성분이 과일인 아이스크림의 맛
+-- 총주문량이 큰 순서대로 조회
+
+SELECT F.FLAVOR
+FROM FIRST_HALF F
+LEFT JOIN ICECREAM_INFO I ON F.FLAVOR = I.FLAVOR
+WHERE F.TOTAL_ORDER >= 3000 AND I.INGREDIENT_TYPE LIKE 'fruit_based'
+ORDER BY F.TOTAL_ORDER DESC;
