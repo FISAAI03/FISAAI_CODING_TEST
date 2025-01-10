@@ -17,6 +17,6 @@
 def solution(numbers):
     answer = ''
     numbers_str = [str(num) for num in numbers]
-    numbers_str = sorted(numbers, key = lambda x:x*4, reverse=True)
+    numbers_str = sorted(numbers_str, key = lambda x:x*4, reverse=True)
     answer = str(int(''.join(numbers_str)))
     return answer
