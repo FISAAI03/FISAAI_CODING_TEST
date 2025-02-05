@@ -16,7 +16,7 @@
     <td align="center"><a href="https://github.com/yonggaljjw"><b>조진원</b></td>
     <td align="center"><a href="https://github.com/JiyeonJeong02"><b>정지연</b></td>
     <td align="center"><a href="https://github.com/rhrjsdn3853"><b>고건우</b></td>
-    <td align="center"><a href="https://github.com/rhrjsdn3853"><b>신호섭섭</b></td>
+    <td align="center"><a href="https://github.com/rhrjsdn3853"><b>신호섭</b></td>
   </tr>
   <tr> 
     <td align="center">Python</td>
