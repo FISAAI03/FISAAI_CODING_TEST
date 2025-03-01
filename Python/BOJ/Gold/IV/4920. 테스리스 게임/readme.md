@@ -18,13 +18,13 @@
 
 <p>테트리스는 아래와 같은 5가지 조각으로 이루어져 있다.</p>
 
-<p><img alt="" src="https://www.acmicpc.net/upload/images/tet.png" style="height:56px; width:343px"></p>
+![](https://www.acmicpc.net/upload/images/tet.png)
 
 <p>정수로 이루어진 N×N 표가 주어진다. 테트리스 블록 중 하나를 표에 놓아 블록 아래에 있는 숫자의 합의 최댓값을 구하는 프로그램을 작성하시오.</p>
 
 <p>모든 테트리스 블록은 90도씩 회전시킬 수 있다. 일부 조각은 총 4가지 형태를 가질 수 있다. 블록이 모두 표 안에 들어있는 형태는 모두 가능한 형태이다.</p>
 
-<p><img alt="" src="https://www.acmicpc.net/upload/images/tet2(1).png" style="height:116px; width:476px"></p>
+![](https://www.acmicpc.net/upload/images/tet2(1).png)
 
 <p>예를 들어, 가장 왼쪽 블록을 첫 행에 놓으면 합 80을 얻을 수 있다. 90도 회전시켜 셋째 열에 놓으면 91을 얻을 수 있다.</p>
 
