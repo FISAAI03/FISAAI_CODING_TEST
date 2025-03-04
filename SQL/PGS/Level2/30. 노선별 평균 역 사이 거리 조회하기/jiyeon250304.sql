@@ -1,0 +1,13 @@
+SELECT ROUTE, CONCAT(ROUND(SUM(D_BETWEEN_DIST),1), 'km') AS TOTAL_DISTANCE, CONCAT(ROUND(AVG(D_BETWEEN_DIST), 2), 'km') AS AVERAGE_DISTANCE
+FROM SUBWAY_DISTANCE
+GROUP BY ROUTE
+ORDER BY SUM(D_BETWEEN_DIST) DESC
+
+/* POINT 
+-- ORDER BY에서 ALIAS 사용시 항상 주의 --
+CONCAT 을 했을 때 결과는 문자열이 됨.
+ORDER BY 할 때 문자열/숫자열 구별 필요.
+
+- ORDER BY 2 DESC -> 이건 문자열. e.g. '2.4km' 이니깐. => ASCII 값 순서로 정렬됨
+- 따라서, SUM(D_BETWEEN_DIST) 이렇게 해야지, 숫자를 기준으로 정렬됨
+*/
