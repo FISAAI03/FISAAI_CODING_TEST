@@ -14,7 +14,6 @@ for _ in range(t):
     # 숫자 문자열 리스트를 사전순으로 정렬
     # 사전순으로 정렬하면 접두어가 같은 것들 순으로 인접하게 정렬해줌
     p_num.sort()
-    print(p_num)
 
     flag = True
     
