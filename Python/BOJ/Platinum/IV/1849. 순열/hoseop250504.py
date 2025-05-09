@@ -2,7 +2,7 @@ import sys
 from math import ceil, log
 
 # 트리 초기화
-# node = 현재 노드 번호, start = 트리 시작 인덱스, end = 트리 끝 인덱스
+# node = 현재 노드 번호, start = 리스트 시작 인덱스, end = 리스트트 끝 인덱스
 def init(node, start, end): 
     if start == end:
         tree[node] = 1
